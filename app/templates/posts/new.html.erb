@@ -1,0 +1,15 @@
+<h1>Create post</h1>
+
+<%= form_for :post, routes.path(:create_post) do |f| %>
+  <p>
+    <%= f.label "Title", for: :title %>
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label "Body", for: :body %>
+    <%= f.text_area :body %>
+  </p>
+  <p>
+    <%= f.submit "Create Post" %>
+  </p>-->
+<% end %>
